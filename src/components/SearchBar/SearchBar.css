@@ -1,0 +1,9 @@
+.diseñoBoton{
+    
+    background-color: #ff0000; /* Puedes usar cualquier valor de color válido, como un nombre de color, código hexadecimal, rgb, rgba, etc. */
+    color: #ffffff; /* Color del texto dentro del botón */
+    border: none; /* Elimina el borde del botón si no lo necesitas */
+    padding: 10px 20px; /* Ajusta el espaciado interno (padding) del botón según tus preferencias */
+    font-size: 16px; /* Tamaño de fuente del texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón para indicar que es interactivo */
+}

@@ -1,0 +1,34 @@
+.targeta{
+display: flex;
+  flex-wrap: wrap; /* Para que los elementos se muevan a la siguiente línea cuando no haya suficiente espacio */
+  gap: 10px;
+}
+.card-container {
+  position: relative;
+  max-width: 300px; /* Establece el ancho máximo del Card si es necesario */
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Ajusta el color de fondo y la opacidad según tus preferencias */
+  color: white;
+  padding: 10px;
+}
